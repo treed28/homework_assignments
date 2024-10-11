@@ -24,7 +24,8 @@ import numpy as np
 import mpld3
 import pandas as pd
 
-fitshpath='/home/idies/workspace/Temporary/treed28/scratch/20240903/reduced/'
+#fitshpath='/home/idies/workspace/Temporary/treed28/scratch/20240903/reduced/'
+fitshpath='/home/idies/workspace/Storage/treed28/persistent/bin/'
 
 if not os.path.isdir(fitshpath):
     raise ValueError("Error: Fitsh path does not exist. You need to change this to the correct path for your system (likely /home/idies/workspace/Storage/<username>/persistent/bin)")
